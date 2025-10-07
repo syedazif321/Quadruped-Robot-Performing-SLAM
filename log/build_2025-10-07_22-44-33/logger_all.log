@@ -1,0 +1,263 @@
+[0.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ceb31198310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ceb31167e20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ceb31167e20>>, mixin_verb=('build',))
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.242s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(bruno) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'bruno' with type 'ros.ament_cmake' and name 'bruno'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_gazebo) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'quadruped_slam_gazebo' with type 'ros.ament_cmake' and name 'quadruped_slam_gazebo'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(quadruped_slam_model) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'quadruped_slam_model' with type 'ros.ament_cmake' and name 'quadruped_slam_model'
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.279s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.279s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.279s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.279s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.279s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.279s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 515 installed packages in /opt/ros/humble
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'bruno' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'bruno' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno', 'merge_install': False, 'path': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno', 'symlink_install': True, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_slam_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo', 'merge_install': False, 'path': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'quadruped_slam_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'quadruped_slam_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model', 'merge_install': False, 'path': '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_model', 'symlink_install': True, 'test_result_base': None}
+[0.328s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno'
+[0.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo' with build type 'ament_cmake'
+[0.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_model' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_model'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo
+[0.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo -- -j16 -l16
+[0.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model -- -j16 -l16
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo -- -j16 -l16
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model -- -j16 -l16
+[0.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model
+[1.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_slam_model)
+[1.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model' for CMake module files
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model' for CMake config files
+[1.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_slam_model', 'cmake_prefix_path')
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/hook/cmake_prefix_path.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/hook/cmake_prefix_path.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/hook/cmake_prefix_path.sh'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/bin'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/lib/pkgconfig/quadruped_slam_model.pc'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/lib/python3.10/site-packages'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/bin'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.bash'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.zsh'
+[1.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/colcon-core/packages/quadruped_slam_model)
+[1.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_slam_model)
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model' for CMake module files
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model' for CMake config files
+[1.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_slam_model', 'cmake_prefix_path')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/hook/cmake_prefix_path.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/hook/cmake_prefix_path.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/hook/cmake_prefix_path.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/bin'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/lib/pkgconfig/quadruped_slam_model.pc'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/lib/python3.10/site-packages'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/bin'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.bash'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.zsh'
+[1.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/colcon-core/packages/quadruped_slam_model)
+[1.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_slam_gazebo)
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo' for CMake module files
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo' for CMake config files
+[1.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_slam_gazebo', 'cmake_prefix_path')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/hook/cmake_prefix_path.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/hook/cmake_prefix_path.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/hook/cmake_prefix_path.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/bin'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/lib/pkgconfig/quadruped_slam_gazebo.pc'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/lib/python3.10/site-packages'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/bin'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.sh'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.bash'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.zsh'
+[1.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/colcon-core/packages/quadruped_slam_gazebo)
+[1.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadruped_slam_gazebo)
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo' for CMake module files
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo' for CMake config files
+[1.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadruped_slam_gazebo', 'cmake_prefix_path')
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/hook/cmake_prefix_path.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/hook/cmake_prefix_path.dsv'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/hook/cmake_prefix_path.sh'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/bin'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/lib/pkgconfig/quadruped_slam_gazebo.pc'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/lib/python3.10/site-packages'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/bin'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.sh'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.bash'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/quadruped_slam_gazebo/package.zsh'
+[1.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_gazebo/share/colcon-core/packages/quadruped_slam_gazebo)
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno
+[1.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno -- -j16 -l16
+[1.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno -- -j16 -l16
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno
+[1.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bruno)
+[1.836s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno' for CMake module files
+[1.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno' for CMake config files
+[1.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('bruno', 'cmake_prefix_path')
+[1.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/hook/cmake_prefix_path.ps1'
+[1.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/hook/cmake_prefix_path.dsv'
+[1.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/hook/cmake_prefix_path.sh'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/lib'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/bin'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/lib/pkgconfig/bruno.pc'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/lib/python3.10/site-packages'
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/bin'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.ps1'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.dsv'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.sh'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.bash'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.zsh'
+[1.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/colcon-core/packages/bruno)
+[1.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bruno)
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno' for CMake module files
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno' for CMake config files
+[1.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('bruno', 'cmake_prefix_path')
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/hook/cmake_prefix_path.ps1'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/hook/cmake_prefix_path.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/hook/cmake_prefix_path.sh'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/lib'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/bin'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/lib/pkgconfig/bruno.pc'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/lib/python3.10/site-packages'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/bin'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.ps1'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.dsv'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.sh'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.bash'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/bruno/package.zsh'
+[1.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno/share/colcon-core/packages/bruno)
+[1.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.845s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.849s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.859s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/local_setup.ps1'
+[1.860s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/_local_setup_util_ps1.py'
+[1.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/setup.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/local_setup.sh'
+[1.863s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/_local_setup_util_sh.py'
+[1.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/setup.sh'
+[1.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/local_setup.bash'
+[1.865s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/setup.bash'
+[1.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/local_setup.zsh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/setup.zsh'

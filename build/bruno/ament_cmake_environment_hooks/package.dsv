@@ -1,0 +1,4 @@
+source;share/bruno/local_setup.bash
+source;share/bruno/local_setup.dsv
+source;share/bruno/local_setup.sh
+source;share/bruno/local_setup.zsh

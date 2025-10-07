@@ -1,0 +1,2 @@
+source;share/quadruped_slam_model/environment/ament_prefix_path.sh
+source;share/quadruped_slam_model/environment/path.sh

@@ -1,0 +1,8 @@
+source;share/bruno/hook/cmake_prefix_path.ps1
+source;share/bruno/hook/cmake_prefix_path.dsv
+source;share/bruno/hook/cmake_prefix_path.sh
+source;share/bruno/local_setup.bash
+source;share/bruno/local_setup.dsv
+source;share/bruno/local_setup.ps1
+source;share/bruno/local_setup.sh
+source;share/bruno/local_setup.zsh

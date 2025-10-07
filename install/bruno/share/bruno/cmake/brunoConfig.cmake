@@ -1,0 +1,1 @@
+/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno/ament_cmake_core/brunoConfig.cmake

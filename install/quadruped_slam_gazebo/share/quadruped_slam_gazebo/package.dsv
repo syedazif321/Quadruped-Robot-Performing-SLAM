@@ -1,0 +1,8 @@
+source;share/quadruped_slam_gazebo/hook/cmake_prefix_path.ps1
+source;share/quadruped_slam_gazebo/hook/cmake_prefix_path.dsv
+source;share/quadruped_slam_gazebo/hook/cmake_prefix_path.sh
+source;share/quadruped_slam_gazebo/local_setup.bash
+source;share/quadruped_slam_gazebo/local_setup.dsv
+source;share/quadruped_slam_gazebo/local_setup.ps1
+source;share/quadruped_slam_gazebo/local_setup.sh
+source;share/quadruped_slam_gazebo/local_setup.zsh

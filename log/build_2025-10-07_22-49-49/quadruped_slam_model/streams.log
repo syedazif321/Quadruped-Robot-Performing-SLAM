@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model -- -j16 -l16
+[0.057s] Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model -- -j16 -l16
+[0.059s] Invoking command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model
+[0.066s] -- Install configuration: ""
+[0.067s] -- Execute custom install script
+[0.067s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/ament_index/resource_index/package_run_dependencies/quadruped_slam_model
+[0.067s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/ament_index/resource_index/parent_prefix_path/quadruped_slam_model
+[0.067s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/environment/ament_prefix_path.sh
+[0.068s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/environment/ament_prefix_path.dsv
+[0.068s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/environment/path.sh
+[0.068s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/environment/path.dsv
+[0.068s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/local_setup.bash
+[0.068s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/local_setup.sh
+[0.068s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/local_setup.zsh
+[0.068s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/local_setup.dsv
+[0.068s] -- Symlinking: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.dsv
+[0.077s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/ament_index/resource_index/packages/quadruped_slam_model
+[0.077s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/cmake/quadruped_slam_modelConfig.cmake
+[0.077s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/cmake/quadruped_slam_modelConfig-version.cmake
+[0.077s] -- Up-to-date symlink: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/quadruped_slam_model/share/quadruped_slam_model/package.xml
+[0.100s] Invoked command in '/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_model
