@@ -1,4 +1,4 @@
-<?xml version="1.8" ?>
+<?xml version="1.0" ?>
 <robot
   name="bruno" xmlns:xacro="http://ros.org/wiki/xacro">
   <link name="dummy_link"></link>
@@ -99,11 +99,9 @@
       link="fr_thigh_link" />
     <axis
       xyz="0 0 1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="fr_leg_link">
@@ -157,11 +155,9 @@
       link="fr_leg_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="0.0" velocity="0.0"/>
+
+
   </joint>
   <link
     name="fr_shin_link">
@@ -215,11 +211,9 @@
       link="fr_shin_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="fl_thigh_link">
@@ -273,11 +267,9 @@
       link="fl_thigh_link" />
     <axis
       xyz="0 0 1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="fl_leg_link">
@@ -331,11 +323,9 @@
       link="fl_leg_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="fl_shin_link">
@@ -389,11 +379,9 @@
       link="fl_shin_link" />
     <axis
       xyz="0 0 1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="br_thigh_link">
@@ -447,11 +435,9 @@
       link="br_thigh_link" />
     <axis
       xyz="0 0 1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="br_leg_link">
@@ -505,11 +491,9 @@
       link="br_leg_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="br_shin_link">
@@ -563,11 +547,9 @@
       link="br_shin_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="bl_thigh_link">
@@ -621,11 +603,9 @@
       link="bl_thigh_link" />
     <axis
       xyz="0 0 1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="bl_leg_link">
@@ -679,11 +659,9 @@
       link="bl_leg_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="bl_shin_link">
@@ -737,11 +715,9 @@
       link="bl_shin_link" />
     <axis
       xyz="0 0 1" />
-    <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="0.5"/>
+
+
   </joint>
   <link
     name="lidar_link">
@@ -956,7 +932,7 @@
   </sensor>
   </gazebo>
 
-  <!-- <gazebo reference="base_link">
+  <gazebo reference="base_link">
   <gravity>false</gravity>
   <sensor name="imu_sensor" type="imu">
     <always_on>true</always_on>
@@ -978,13 +954,13 @@
     </plugin> 
     <pose>0 0 0 0 0 0</pose>
   </sensor>
-  </gazebo> -->
+  </gazebo>
 
   <gazebo>
-  <!-- <plugin filename="libodometry_plugin.so" name="odometry_plugin">
+  <plugin filename="libodometry_plugin.so" name="odometry_plugin">
     <frame>base_link</frame>
     <world_frame>fixed_world</world_frame>
-  </plugin> -->
+  </plugin>
   </gazebo>
 
   <xacro:macro name="body_color">
