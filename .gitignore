@@ -1,4 +1,100 @@
-/build
-/log
-/install
+# ======================================================
+# ROS 2 Humble Workspace Git Ignore Template
+# ======================================================
 
+# --- Colcon build artifacts ---
+build/
+install/
+log/
+
+# --- ROS 2 specific generated files ---
+**/colcon_command_prefix_setup.sh
+**/local_setup.*
+**/setup.*
+**/ament_cmake_environment_hooks/
+**/ament_cmake_core/
+**/CMakeCache.txt
+**/CMakeFiles/
+**/cmake_install.cmake
+
+# --- Python build artifacts ---
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.egg-info/
+**/.pytest_cache/
+
+# --- VSCode & JetBrains IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- System & temporary files ---
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# --- ROS bag files and recordings ---
+*.db3
+*.bag
+*.bag.active
+*.bag.metadata
+*.mcap
+
+# --- Logs, debugging and data files ---
+*.log
+*.csv
+*.dat
+*.yaml~
+*.launch.py~
+
+# --- Gazebo / Ignition Sim artifacts ---
+*.state
+*.world~
+*.sdf~
+**/gazebo_models/cache/
+**/gazebo_plugins/build/
+**/gazebo_plugins/install/
+**/gazebo_plugins/log/
+
+# --- RViz, MoveIt, and visualization ---
+**/rviz/*.rviz~
+**/moveit_configs/.setup_assistant
+**/moveit_configs/.setup_assistant_config.yaml
+
+# --- ROS 2 dependencies (installed via rosdep or colcon) ---
+**/rosidl_generator_*
+**/ament_index/
+**/resource_index/
+
+# --- Qt build outputs (for GUI packages) ---
+**/ui_*.h
+**/moc_*.cpp
+**/qrc_*.cpp
+.parol6_gui_autogen/
+*.qrc.depends
+
+# --- CMake and Ninja intermediate files ---
+*.ninja
+*.ninja_deps
+*.ninja_log
+compile_commands.json
+CTestTestfile.cmake
+
+# --- ROS 2 launch testing ---
+test_results/
+Testing/
+
+# --- Docker or container stuff ---
+*.tar
+*.img
+*.container
+
+# --- Custom local configuration ---
+.env
+*.local
