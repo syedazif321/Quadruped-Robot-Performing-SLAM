@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo
+CMAKE_SOURCE_DIR = /home/azif/projects/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo
+CMAKE_BINARY_DIR = /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azif/projects/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo /home/azif/projects/Quadruped-Robot-Performing-SLAM/quadruped_slam_gazebo /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

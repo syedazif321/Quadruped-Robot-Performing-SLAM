@@ -1,1 +1,1 @@
-/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno/launch/spawn_robot_ros2.launch.py
+/home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno/launch/spawn_robot_ros2.launch.py

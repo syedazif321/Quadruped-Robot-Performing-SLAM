@@ -23,7 +23,7 @@ def generate_launch_description():
 
     # Position and orientation
     # [X, Y, Z]
-    position = [-0.273970, -3.364290, 1.056039]
+    position = [-0.273970, -3.364290, 0.956039]
     # [Roll, Pitch, Yaw]
     orientation = [0.0, 0.0, 0.041819]
     # Base Name or robot
@@ -93,18 +93,21 @@ def generate_launch_description():
     )
 
 
-    # Joint State Broadcaster Node
+# Joint State Broadcaster Node
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        # *** FIX 1: Use the name from the YAML file ***
+        arguments=["joint_states_controller", "--controller-manager", "/controller_manager"], 
     )
 
     # Joint Position Controller Node
+# Joint Position Controller Node
     robot_position_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["position_controller", "--controller-manager", "/controller_manager"],
+        # *** FIX 2: Use the name from the YAML file ***
+        arguments=["joint_group_effort_controller", "--controller-manager", "/controller_manager"],
     )
 
     # Delay start of robot_controller after `joint_state_broadcaster`

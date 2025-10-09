@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno
+CMAKE_SOURCE_DIR = /home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno
+CMAKE_BINARY_DIR = /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/bruno
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/bruno && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno /home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/bruno /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/bruno /home/azif/projects/Quadruped-Robot-Performing-SLAM/build/bruno/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

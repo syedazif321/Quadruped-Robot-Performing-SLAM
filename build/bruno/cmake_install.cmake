@@ -1,8 +1,8 @@
-# Install script for directory: /home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno
+# Install script for directory: /home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/install/bruno")
+  set(CMAKE_INSTALL_PREFIX "/home/azif/projects/Quadruped-Robot-Performing-SLAM/install/bruno")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/azif/projects/Quadruped-Robot-Performing-SLAM/build/bruno/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/bruno/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/azif/projects/Quadruped-Robot-Performing-SLAM/build/bruno/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,1 +1,1 @@
-/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno/launch/gazebo.launch.py
+/home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno/launch/gazebo.launch.py

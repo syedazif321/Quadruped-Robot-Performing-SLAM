@@ -1,1 +1,1 @@
-/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno/launch/display.launch.py
+/home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno/launch/display.launch.py

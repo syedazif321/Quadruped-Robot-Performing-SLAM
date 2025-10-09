@@ -1,1 +1,1 @@
-/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/bruno/launch/robot_description_publisher.py
+/home/azif/projects/Quadruped-Robot-Performing-SLAM/bruno/launch/robot_description_publisher.py

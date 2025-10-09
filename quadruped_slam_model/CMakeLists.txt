@@ -24,10 +24,10 @@ find_package(sensor_msgs REQUIRED)
 #     DESTINATION share/${PROJECT_NAME}/
 #     )
 
-install(
-    PROGRAMS
-    src/ramped_joypad.py
-    DESTINATION lib/${PROJECT_NAME}
-    )
+# install(
+#     PROGRAMS
+#     src/ramped_joypad.py
+#     DESTINATION share/${PROJECT_NAME}
+#     )
 
 ament_package()

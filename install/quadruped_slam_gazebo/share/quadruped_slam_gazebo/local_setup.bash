@@ -1,1 +1,1 @@
-/home/azif/projetcs/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo/ament_cmake_environment_hooks/local_setup.bash
+/home/azif/projects/Quadruped-Robot-Performing-SLAM/build/quadruped_slam_gazebo/ament_cmake_environment_hooks/local_setup.bash
